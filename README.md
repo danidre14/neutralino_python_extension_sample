@@ -18,7 +18,7 @@ A simple neu application that connects to a python extension file. Started off w
 - There may be better ways to define many of my python functions. I'm a python noob, and just tried converting my nodejs extensions version over to python with the limited knowledge I had.
 - You may need to do error handling in your python extension so that it does not crash.
 - This python extension uses `websocket_client` to work. You may have to check their [docs](https://pypi.org/project/websocket-client/) to see how to install it <br />(I had lots of problems before it finally worked and had to restart the VSCode for the changes to be recognized, but a familiar python user may experience no problems at all)
-- Not every computer may have python, so you should bundle the python application as an `.exe` when distributing. Don't forget to adjust your `"command"` in your `neutralino.config.json` file to launch that `.exe` instead. <br />I have no idea how to bundle python applications but someone suggested "Module pyinstaller to get a single exe". I have a feeling familiar python users may already know how to do that.
+- **Distribution:** Not every computer may have python, so you should bundle the python application as an `.exe` when distributing. Don't forget to adjust your `"command"` in your `neutralino.config.json` file to launch that `.exe` instead. <br />I have no idea how to bundle python applications but someone suggested "Module pyinstaller to get a single exe". I have a feeling familiar python users may already know how to do that.
 - I removed unnecessary things from the `neutralino.config.json` file for this sample. Your configuration file may differ based on what you need for your own application.
 
 # Icon credits
